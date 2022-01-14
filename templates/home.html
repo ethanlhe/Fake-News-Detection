@@ -1,0 +1,26 @@
+<html>
+  <body bgcolor="#4da6ff">
+    <center>
+      <h1>Fake News Classification</h1>
+      <br />
+
+      <form method="POST" , action="{{url_for('home')}}">
+        <b>
+          <div>
+            Author: <input type="text" , name="author" , size="47" />
+            <br /><br />
+            Title:<textarea
+              style="vertical-align: middle"
+              name="title"
+              rows="4"
+              cols="45"
+            ></textarea>
+            <br /><br />
+          </div>
+        </b>
+
+        <input type="submit" , value="Submit" />
+      </form>
+    </center>
+  </body>
+</html>
